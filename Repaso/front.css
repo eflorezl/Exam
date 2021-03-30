@@ -1,0 +1,130 @@
+* {margin:0; padding:0; border:0;}
+ html, body {
+     width: auto;
+     height: 100%;
+     font-family:'Times New Roman', Times, serif;
+     font-weight:bold;
+     background-color:rgba(7, 0, 0, 0);
+     color: black;
+
+}
+
+body{background-color: #07070794}
+
+ header{
+     position:static;
+     text-align: justify;
+     background-color: rgba(255, 255, 255, 0);
+     width:98%;
+     height: 13%;
+     margin: 0px auto;}
+
+     #heat{
+        position: center;
+        text-align: center;
+        color:rgba(5, 5, 5, 0.733);
+     }
+
+
+
+  h1{
+    font-size : xx-large;
+    text-align: center;
+    }
+
+  .sw{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+} 
+
+
+
+
+ nav{
+     position:relative;
+     background-color: rgb(255, 255, 255);
+     color:rgba(5, 5, 5, 0.733);
+     width:98%;
+     height:13%;
+     margin: 0px auto;}
+ section{
+    position:relative;
+     float:left;
+     background-color: rgba(255, 255, 255, 0);
+     width:78%;
+     height:55%;
+     color:rgba(5, 5, 5, 0.733);
+    }
+
+ article{
+     width:98%;
+     height:50%;
+     color:rgba(5, 5, 5, 0.733);
+    }
+
+  h2{
+      font-size : xx-large;
+      text-align: center;
+      }
+
+ .igm{
+        position:relative;
+        background-color: rgba(255, 255, 255, 0);
+        width:18%;
+        height:55%;
+        float:left;
+    }
+
+
+ aside{
+     position:relative;
+     background-color: rgb(255, 255, 255);
+     width:18%;
+     height:55%;
+     color:rgba(5, 5, 5, 0.733);
+     float:left;
+ }
+
+ h3{
+    font-size : xx-large;
+    text-align: center;
+    }
+
+ section{
+        position:relative;
+         float:left;
+         background-color: rgb(255, 255, 255);
+         width:78%;
+         height:55%;
+         color:rgba(5, 5, 5, 0.733);
+        }
+    
+ article{
+         width:98%;
+         height:50%;
+         color:rgba(5, 5, 5, 0.733);
+        }
+
+
+ footer{
+     position:relative; 
+     background-color: rgb(255, 255, 255);
+    width:98%;
+    height:5%;
+    color:rgba(5, 5, 5, 0.733);
+    clear:both;
+    text-align: right;
+ }
+
+header,section,footer,aside,article,nav{
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+margin:1%;}
+
+header{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin:1%;}
