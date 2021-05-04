@@ -1,0 +1,112 @@
+* {margin:0; padding:0; border:0;}
+ html, body {
+     width: auto;
+     height: 100%;
+     font-family:'Times New Roman', Times, serif;
+     font-weight:bold;
+     background-color:rgba(7, 0, 0, 0);
+     color: black;
+
+}
+
+body{background-color: #07070794}
+
+    contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    position:relative;
+     float:left;
+     text-align: justify;
+     background-color: rgba(255, 255, 255, 0);
+     width:78%;
+     height:55%;
+     color:rgba(5, 5, 5, 0.733);
+     margin-right: auto;
+     margin-right: auto;
+    }
+
+ article{
+     width:800px;
+     height:500px;
+     color:rgba(5, 5, 5, 0.733);
+     margin-right: auto;
+     margin-right: auto;
+    }
+
+    h2{
+        font-size : xx-large;
+        text-align: center;
+        }
+
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+		
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+	aside {
+		position: relative;
+	}
+}
+
+ header{
+     position:static;
+     text-align: justify;
+     background-color: rgba(255, 255, 255, 0);
+     width:98%;
+     height: 13%;
+     margin: 0px auto;}
+
+     #heat{
+        position: center;
+        text-align: center;
+        color:rgba(5, 5, 5, 0.733);
+     }
+
+     aside{
+        position:relative;
+        width:18%;
+        height:55%;
+        color:rgba(5, 5, 5, 0);
+        float:left;
+    }
+    
+    aside .titulo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #f2f2f2;
+    }
+    
+    aside .indice a {
+        display: block;
+        margin-bottom: 10px;
+        color: #FFCD48;
+
+    }
+
+    header,section,aside,article{
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin:1%;
+    }
+
+
