@@ -50,49 +50,92 @@
         </header>
 
         <div class="news-card">
-            <div>
-                <img src="Imagenes/PRI3.jpg" alt="Buzo">
-                <h3>Lacoste</h3>
-					<p>(Gorras-Camisetas)</p>
-                    <h5> $120.000 </h5>
-                 <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            <div class="post">
+                <img class="post-Image" src="Imagenes/Arnold.jpg"  alt="Buzo" width="10px" height="auto">
+                <h3 class="post-name"></h3>>Lacoste</h3>
+					<p class="post-name"></p>>(Gorras-Camisetas)</p>
+                    <h5 class="post-precios"> $120.000 </h5>
+                    <button class="item-button btn btn-secondary addToCart">Añadir a la bolsa</button>
             </div>
 
-            <div>
-                <img src="Imagenes/Cana.jpg" alt="Buzo">
-                <h3>Recreativos  </h3>
-					<p>(Traumaticos-Legales)</p>
-                    <h5>$200.000</h5>
-                <a href="#" class="Learn">Learn more <i class="fas fa-angle-double-right"></i></a>
+            <div class="post">
+                <img class="post-Image" src="Imagenes/Cana.jpg"  alt="Buzo" width="10px" height="auto">
+                <h3 class="post-name"></h3>>Recreativos  </h3>
+					<p class="post-name"></p>>(Traumaticos-Legales)</p>
+                    <h5 class="post-precios">$200.000</h5>
+                    <button class="item-button btn btn-secondary addToCart">Añadir a la bolsa</button>            </div>
+
+                    <div class="post">
+                <img class="post-Image" src="Imagenes/Fri.jpg"  alt="Buzo" >
+                <h3 class="post-name"></h3>> Work Mode </h3>
+					<p class="post-name"></p>>(Buzo-Camiseta-Pantalon)</p>
+                    <h5 class="post-precios">$80.000</h5>
+                    <button class="item-button btn btn-secondary addToCart">Añadir a la bolsa</button>            </div>
             </div>
 
-            <div>
-                <img src="Imagenes/Fri.jpg" alt="Buzo">
-                <h3> Work Mode </h3>
-					<p>(Buzo-Camiseta-Pantalon)</p>
-                    <h5>$80.000</h5>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            <div class="post">
+                <img class="post-Image"  src="Imagenes/mara.jpg"  alt="Buzo" >
+                <h3 class="post-name"></h3>> Casual Mode </h3>
+					<p class="post-name"></p>>(Camisas-Bermudas)</p>
+                    <h5 class="post-precios">$150.000</h5>
+                    <button class="item-button btn btn-secondary addToCart">Añadir a la bolsa</button>            </div>
             </div>
 
-            <div>
-                <img src="Imagenes/Fri2.jpg" alt="Buzo">
-                <h3> Casual Mode </h3>
-					<p>(Camisas-Bermudas)</p>
-                    <h5>$150.000</h5>
-                 <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+    <section class="shopping-cart">
+        <div class="container">
+            <h1 class="text-center">CARRITO</h1>
+            <hr>
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6>Producto</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="text-truncate">Precio</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6>Cantidad</h6>
+                    </div>
+                </div>
             </div>
+    <!-- ? START SHOPPING CART ITEMS -->
+    <div class="shopping-cart-items shoppingCartItemsContainer">
+    </div>
+    <!-- ? END SHOPPING CART ITEMS -->
 
-            <div>
-                <img src="Imagenes/Fri4.jpg" alt="Buzo">
-                <h3>Deportivo</h3>
-                <p>(Buzo-Camiseta)</p>
-                <h5>$200.000</h5>
-                 <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+    <!-- START TOTAL -->
+    <div class="row">
+        <div class="col-12">
+            <div class="shopping-cart-total d-flex align-items-center">
+                <p class="mb-0">Total</p>
+                <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                    data-delay="2000">
+                    <div class="toast-header">
+                        <span>✅</span>
+                        <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="toast-body text-white">
+                        Se aumentó correctamente la cantidad
+                    </div>
+                </div>
+                <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                    data-target="#comprarModal">Comprar</button>
             </div>
         </div>
     </div>
+</div>
 
-
+<script src="./js/Carrito.js"></script>
 
     <footer>
         By The Creator

@@ -98,19 +98,18 @@ hr{
 }
 
 /*NEWS CARD*/
+
 .news-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     margin: 10px;
 }
+
 .news-card img {
+
     width: 100%;
     height:auto;
-}
-
-.news-card h5{
-    opacity: .7;
 }
 
 footer{
